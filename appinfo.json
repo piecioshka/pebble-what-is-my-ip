@@ -10,15 +10,15 @@
     "resources": {
         "media": [
             {
-                "file": "images/menu_icon.png",
                 "menuIcon": true,
+                "type": "png",
                 "name": "IMAGE_MENU_ICON",
-                "type": "bitmap"
+                "file": "images/menu_icon.png"
             },
             {
-                "file": "images/logo_splash.png",
+                "type": "png",
                 "name": "IMAGE_LOGO_SPLASH",
-                "type": "bitmap"
+                "file": "images/logo_splash.png"
             }
         ]
     },

@@ -2,18 +2,33 @@
 
 var IPManager = require('ip');
 var UI = require('ui');
+var Vector2 = require('vector2');
 
-var main = new UI.Card({
-    title: 'What is my IP',
-    icon: 'images/menu_icon.png',
-    subtitle: 'Your IP is:',
-    body: '...',
-    subtitleColor: 'indigo',
-    bodyColor: '#9a0036'
+var layout = new UI.Window();
+
+// Header.
+var header = new UI.Text({
+    position: new Vector2(0, 30),
+    size: new Vector2(144, 168),
+    textAlign: 'center',
+    font: 'gothic-24',
+    text: 'What is my IP?'
 });
 
-main.show();
+// IP Address label.
+var label = new UI.Text({
+    position: new Vector2(0, 70),
+    size: new Vector2(144, 168),
+    textAlign: 'center',
+    font: 'gothic-24-bold',
+    text: 'loading...'
+});
+
+layout.add(header);
+layout.add(label);
 
 IPManager.fetch(function (ip) {
-    main.body(ip);
+    label.text(ip);
 });
+
+layout.show();
