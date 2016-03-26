@@ -2,6 +2,8 @@
 
 > Simple application display IP address of Pebble device.
 
+![](./resources/images/screenshot.png)
+
 ## Help links
 
 * https://developer.pebble.com/tutorials/pebble-js-tutorial/part1/

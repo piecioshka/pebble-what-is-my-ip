@@ -4,8 +4,8 @@
         ""
     ],
     "companyName": "piecioshka@gmail.com",
-    "shortName": "pebble-what-is-my-ip",
-    "longName": "pebble-what-is-my-ip",
+    "shortName": "My IP",
+    "longName": "What is my IP",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -14,11 +14,6 @@
                 "type": "png",
                 "name": "IMAGE_MENU_ICON",
                 "file": "images/menu_icon.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_LOGO_SPLASH",
-                "file": "images/logo_splash.png"
             }
         ]
     },

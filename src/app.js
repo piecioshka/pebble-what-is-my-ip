@@ -4,7 +4,9 @@ var IPManager = require('ip');
 var UI = require('ui');
 var Vector2 = require('vector2');
 
-var layout = new UI.Window();
+var layout = new UI.Window({
+    icon: 'IMAGE_MENU_ICON'
+});
 
 // Header.
 var header = new UI.Text({
