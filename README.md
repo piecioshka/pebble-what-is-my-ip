@@ -1,6 +1,6 @@
 # pebble-what-is-my-ip
 
-> Simple application display IP address of Pebble device.
+⌚ Simple application display IP address of Pebble device.
 
 ![](./resources/images/screenshot.png)
 
